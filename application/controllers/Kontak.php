@@ -17,7 +17,7 @@ class Kontak extends RestController {
     {
         parent:: __construct();
         $this->load->model('Kontak_model');
-        $this->methods['index_get']['limit'] = 3;
+        $this->methods['index_get']['limit'] = 100;
     }
 
     //Menampilkan data kontak
